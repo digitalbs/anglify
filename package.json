@@ -1,0 +1,41 @@
+{
+    "name": "Anglify",
+    "version": "0.0.1",
+    "description": "Browserify + Angular + Gulp integration. All files export to a distributed folder that can be pulled in with bower. ",
+    "author": "",
+    "license": "MIT",
+    "scripts": {
+        "install": "napa"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/digitalbs/anglify.git"
+    },
+    "devDependencies": {
+        "browserify": "~4.1.11",
+        "vinyl-source-stream": "~0.1.1",
+        "karma-script-launcher": "~0.1.0",
+        "karma-chrome-launcher": "~0.1.0",
+        "karma-firefox-launcher": "~0.1.0",
+        "karma-html2js-preprocessor": "~0.1.0",
+        "karma-jasmine": "~0.1.3",
+        "karma-requirejs": "~0.2.0",
+        "karma-coffee-preprocessor": "~0.1.0",
+        "karma-phantomjs-launcher": "~0.1.0",
+        "karma-browserify": "~0.2.0",
+        "gulp": "~3.8.1",
+        "gulp-jshint": "~1.6.3",
+        "gulp-angular-templates": "0.0.1",
+        "gulp-karma": "0.0.4",
+        "gulp-connect": "~2.0.5",
+        "gulp-bower": "0.0.6",
+        "gulp-clean": "~0.3.1",
+        "gulp-sass": "~0.7.2",
+        "gulp-concat": "~2.2.0"
+    },
+    "napa": {
+        "angular": "angular/bower-angular#v1.2.16",
+        "angular-mocks": "angular/bower-angular-mocks#v1.2.16",
+        "angular-ui-router": "angular-ui/ui-router"
+    }
+}
